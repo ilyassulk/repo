@@ -1,0 +1,5 @@
+services:
+  web:
+    image: isdockero/git-preview:latest
+    ports:
+      - "8080:80"
